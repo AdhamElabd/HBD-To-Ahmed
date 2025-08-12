@@ -7,7 +7,7 @@ let w = (c.width = window.innerWidth),
     // change the text in here //
     strings:["Wishing You", "a Wonderful", "Birthday", "Ahmed!"],
     charSize: 20,
-    charSpacing: 35,
+    charSpacing: 28,
     lineHeight: 40,
 
     cx: w / 2,
@@ -399,5 +399,6 @@ window.addEventListener("resize", function () {
 
   ctx.font = opts.charSize + "px Verdana";
 });
+
 
 
